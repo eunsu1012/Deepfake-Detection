@@ -135,8 +135,8 @@ Deepfake-Detection/
 
 ## 👤 Author
 
-Park, Eunsoo
-Shrestha, Sandesh
+Park, Eunsoo  \
+Shrestha, Sandesh \
 Gautam, Saumya
 
 ## ✔️ Summary
