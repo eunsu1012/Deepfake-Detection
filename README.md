@@ -1,118 +1,158 @@
-# Deepfake Detection using EfficientNetB4 and VGG19
+# 🎭 Deepfake Detection using EfficientNetB4 and VGG19
 
-## 📌 Project Overview
-This project focuses on detecting deepfake human face images using deep learning models.  
-A comparative analysis is conducted between EfficientNetB4 and VGG19 to evaluate their effectiveness in identifying manipulated images.
+A deep learning-based project for detecting deepfake human face images.  
+This study performs a comparative analysis between EfficientNetB4 and VGG19 to evaluate their effectiveness in identifying manipulated images.
 
 ---
 
-## ⚠️ Problem Statement
-With the rapid advancement of deep learning, deepfake images have become increasingly realistic and difficult to distinguish from real images.  
-These manipulated images pose serious risks in areas such as misinformation, privacy, and security.
+## 📌 Overview
 
-This project aims to develop a reliable deepfake detection system and compare model performance to identify the most effective architecture.
+Deepfakes are AI-generated synthetic media that manipulate facial features to create highly realistic fake images or videos.  
+They pose serious risks in digital security, misinformation, and identity fraud.
+
+Detecting deepfakes has become a critical task in computer vision and digital forensics, as these models must identify subtle visual inconsistencies such as lighting artifacts, facial distortions, and unnatural textures. :contentReference[oaicite:0]{index=0}
+
+This project focuses on building a robust deepfake detection system using convolutional neural networks (CNNs).
+
+---
+
+## 🎯 Objectives
+
+- Detect deepfake images using deep learning models  
+- Compare the performance of EfficientNetB4 and VGG19  
+- Analyze model efficiency and generalization ability  
+- Identify the most suitable architecture for deepfake detection  
+
+---
+
+## 🧠 Key Features
+
+- CNN-based image classification for real vs fake detection  
+- Comparative analysis of two state-of-the-art architectures  
+- Evaluation using standard classification metrics  
+- Focus on model efficiency and performance trade-offs  
 
 ---
 
 ## 🗂️ Dataset
-The dataset used in this project consists of high-quality human face images:
 
-- Total images: 140,000  
-- Real images: 70,000  
-- Fake images: 70,000 (generated using StyleGAN)  
-- Image resolution: 256 × 256  
+The project uses face image datasets containing:
 
-The dataset includes diverse variations in:
-- lighting conditions  
-- facial expressions  
-- background and accessories  
+- Real human face images  
+- AI-generated deepfake images  
 
-It is split into:
-- Training set: 100,000 images  
-- Validation set: 20,000 images  
-- Test set: 20,000 images  
+Common datasets in deepfake research include FaceForensics++ and DeepFake Detection Challenge datasets, which are widely used for training detection models. :contentReference[oaicite:1]{index=1}
 
 ---
 
 ## ⚙️ Methodology
 
-### 🔧 Data Preprocessing
-- Images resized to **224 × 224** to match model input requirements  
-- RGB color format maintained  
-- No data augmentation applied due to sufficient dataset diversity  
+The project follows a deep learning pipeline:
+
+1. Data preprocessing  
+   - Image resizing and normalization  
+   - Data augmentation  
+
+2. Model Development  
+   - EfficientNetB4  
+   - VGG19  
+
+3. Training  
+   - Binary classification (Real vs Fake)  
+
+4. Evaluation  
+   - Accuracy  
+   - Precision / Recall  
+   - F1-score  
 
 ---
 
-## 🧠 Model Architecture
+## 🧩 Model Architecture
 
-### 🚀 EfficientNetB4
-- Optimized for performance and computational efficiency  
+### 1. EfficientNetB4
 - Uses compound scaling (depth, width, resolution)  
+- Achieves high accuracy with optimized efficiency  
+- Suitable for capturing subtle visual patterns  
 
-### 🏗️ VGG19
-- Deep convolutional neural network with simple architecture  
-- Strong feature extraction capability for image classification  
-
----
-
-## 📈 Results
-
-| Model           | Accuracy |
-|----------------|----------|
-| EfficientNetB4 | 98.54%   |
-| VGG19          | 99.11%   |
+EfficientNet-based models have demonstrated strong performance in deepfake detection, achieving high accuracy and generalization. :contentReference[oaicite:2]{index=2}  
 
 ---
 
-## 🔍 Key Insights
+### 2. VGG19
+- Deep CNN architecture with simple structure  
+- Strong baseline model for image classification  
 
-- **VGG19 achieved higher accuracy**, indicating strong performance in capturing detailed image features  
-- **EfficientNetB4 showed competitive performance with better efficiency**, making it suitable for resource-constrained environments  
-- Model selection should consider both **accuracy and computational cost**
+Previous studies show that VGG19 can achieve high accuracy (around 95%) in deepfake detection tasks. :contentReference[oaicite:3]{index=3}  
+
+---
+
+## 📊 Model Evaluation
+
+Evaluation metrics include:
+
+- **Accuracy**: Overall classification performance  
+- **Precision / Recall**: Class-specific performance  
+- **F1-score**: Balance between precision and recall  
+
+Deep learning-based detectors typically achieve high performance (often above 90% accuracy) depending on dataset and model choice. :contentReference[oaicite:4]{index=4}  
 
 ---
 
 ## 🛠️ Tech Stack
 
 - Python  
-- TensorFlow / Keras  
-- NumPy  
+- TensorFlow / Keras or PyTorch  
 - OpenCV  
-- Matplotlib  
-
----
-
-## ▶️ How to Run
-
-```bash
-git clone https://github.com/eunsu1012/Deepfake-Detection.git
-cd Deepfake-Detection
-
-pip install -r requirements.txt
-
-python train.py
-```
+- NumPy / Pandas  
+- Matplotlib / Seaborn  
 
 ---
 
 ## 📁 Project Structure
 
-```bash
+```
 Deepfake-Detection/
 │
-├── data/
-├── models/
-├── notebooks/
-├── src/
-├── results/
-├── train.py
+├── data/                # Dataset
+├── notebooks/           # Training & experiments
+├── src/                 # Model implementation
+├── models/              # Saved models
+├── results/             # Evaluation results
 └── README.md
 ```
 
 ---
 
-## 📚 References
+## 🚀 Results
 
-- S. Shrestha, E. S. Park, S. Gautam and N. Mansoor, **"A Comparative Study of EfficientNetB4 and VGG19 Models for Deepfake Detection,"** 2025 International Conference on Advanced Machine Learning and Data Science (AMLDS), Tokyo, Japan, 2025, pp. 276-281, doi: 10.1109/AMLDS63918.2025.11159417.
-- NVIDIA Flickr Dataset (Real Images)
-- StyleGAN (Fake Image Generation)
+- Built deepfake detection models using CNN architectures  
+- Compared EfficientNetB4 and VGG19 performance  
+- Identified differences in accuracy and efficiency  
+
+---
+
+## 📌 Limitations
+
+- Performance depends heavily on dataset quality  
+- Limited generalization across unseen deepfake techniques  
+- Real-world deployment requires robustness testing  
+
+---
+
+## 🔧 Future Work
+
+- Apply transformer-based models (ViT, Swin Transformer)  
+- Improve generalization across datasets  
+- Integrate real-time detection systems  
+
+---
+
+## 👤 Author
+
+Eunsu Park (Data Science Graduate Student)
+
+---
+
+## ✔️ Summary
+
+> A comparative deep learning project analyzing EfficientNetB4 and VGG19 for accurate deepfake image detection
