@@ -1,12 +1,12 @@
 # Deepfake Detection using EfficientNetB4 and VGG19
 
-## 1. Project Overview
+## 📌 Project Overview
 This project focuses on detecting deepfake human face images using deep learning models.  
 A comparative analysis is conducted between EfficientNetB4 and VGG19 to evaluate their effectiveness in identifying manipulated images.
 
 ---
 
-## 2. Problem Statement
+## ⚠️ Problem Statement
 With the rapid advancement of deep learning, deepfake images have become increasingly realistic and difficult to distinguish from real images.  
 These manipulated images pose serious risks in areas such as misinformation, privacy, and security.
 
@@ -14,7 +14,7 @@ This project aims to develop a reliable deepfake detection system and compare mo
 
 ---
 
-## 3. Dataset
+## 📊 Dataset
 The dataset used in this project consists of high-quality human face images:
 
 - Total images: 140,000  
@@ -34,28 +34,28 @@ It is split into:
 
 ---
 
-## 4. Methodology
+## ⚙️ Methodology
 
-### Data Preprocessing
+### 🔧 Data Preprocessing
 - Images resized to **224 × 224** to match model input requirements  
 - RGB color format maintained  
 - No data augmentation applied due to sufficient dataset diversity  
 
 ---
 
-## 5. Model Architecture
+## 🧠 Model Architecture
 
-### EfficientNetB4
+### 🚀 EfficientNetB4
 - Optimized for performance and computational efficiency  
 - Uses compound scaling (depth, width, resolution)  
 
-### VGG19
+### 🏗️ VGG19
 - Deep convolutional neural network with simple architecture  
 - Strong feature extraction capability for image classification  
 
 ---
 
-## 6. Results
+## 📈 Results
 
 | Model           | Accuracy |
 |----------------|----------|
@@ -64,7 +64,7 @@ It is split into:
 
 ---
 
-## 7. Key Insights
+## 🔍 Key Insights
 
 - **VGG19 achieved higher accuracy**, indicating strong performance in capturing detailed image features  
 - **EfficientNetB4 showed competitive performance with better efficiency**, making it suitable for resource-constrained environments  
@@ -72,7 +72,7 @@ It is split into:
 
 ---
 
-## 8. Tech Stack
+## 🛠️ Tech Stack
 
 - Python  
 - TensorFlow / Keras  
@@ -82,7 +82,7 @@ It is split into:
 
 ---
 
-## 9. How to Run
+## ▶️ How to Run
 
 ```bash
 git clone https://github.com/eunsu1012/Deepfake-Detection.git
@@ -95,7 +95,7 @@ python train.py
 
 ---
 
-## 10. Project Structure
+## 📁 Project Structure
 
 ```bash
 Deepfake-Detection/
@@ -111,7 +111,7 @@ Deepfake-Detection/
 
 ---
 
-## 11. References
+## 📚 References
 
 - S. Shrestha, E. S. Park, S. Gautam and N. Mansoor, **"A Comparative Study of EfficientNetB4 and VGG19 Models for Deepfake Detection,"** 2025 International Conference on Advanced Machine Learning and Data Science (AMLDS), Tokyo, Japan, 2025, pp. 276-281, doi: 10.1109/AMLDS63918.2025.11159417.
 - NVIDIA Flickr Dataset (Real Images)
