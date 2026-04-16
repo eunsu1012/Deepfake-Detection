@@ -91,7 +91,7 @@ cd Deepfake-Detection
 pip install -r requirements.txt
 
 python train.py
-
+```
 
 ---
 
