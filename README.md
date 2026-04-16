@@ -91,3 +91,25 @@ cd Deepfake-Detection
 pip install -r requirements.txt
 
 python train.py
+
+---
+
+## 10. Project Structure
+
+Deepfake-Detection/
+│
+├── data/
+├── models/
+├── notebooks/
+├── src/
+├── results/
+├── train.py
+└── README.md
+
+---
+
+## 11. References
+
+- Shrestha, S., Park, E.S., Gautam, S., Mansoor, N. (2025). A Comparative Study of EfficientNetB4 and VGG19 Models for Deepfake Detection.
+- NVIDIA Flickr Dataset (Real Images)
+- StyleGAN (Fake Image Generation)
