@@ -3,7 +3,6 @@
 A deep learning-based project for detecting deepfake human face images.  
 This study performs a comparative analysis between EfficientNetB4 and VGG19 to evaluate their effectiveness in identifying manipulated images.
 
----
 
 ## 📌 Overview
 
@@ -14,7 +13,6 @@ Detecting deepfakes has become a critical task in computer vision and digital fo
 
 This project focuses on building a robust deepfake detection system using convolutional neural networks (CNNs).
 
----
 
 ## 🎯 Objectives
 
@@ -23,7 +21,6 @@ This project focuses on building a robust deepfake detection system using convol
 - Analyze model efficiency and generalization ability  
 - Identify the most suitable architecture for deepfake detection  
 
----
 
 ## 🧠 Key Features
 
@@ -32,7 +29,6 @@ This project focuses on building a robust deepfake detection system using convol
 - Evaluation using standard classification metrics  
 - Focus on model efficiency and performance trade-offs  
 
----
 
 ## 🗂️ Dataset
 
@@ -43,7 +39,6 @@ The project uses face image datasets containing:
 
 Common datasets in deepfake research include FaceForensics++ and DeepFake Detection Challenge datasets, which are widely used for training detection models. :contentReference[oaicite:1]{index=1}
 
----
 
 ## ⚙️ Methodology
 
@@ -65,7 +60,6 @@ The project follows a deep learning pipeline:
    - Precision / Recall  
    - F1-score  
 
----
 
 ## 🧩 Model Architecture
 
@@ -76,7 +70,6 @@ The project follows a deep learning pipeline:
 
 EfficientNet-based models have demonstrated strong performance in deepfake detection, achieving high accuracy and generalization. :contentReference[oaicite:2]{index=2}  
 
----
 
 ### 2. VGG19
 - Deep CNN architecture with simple structure  
@@ -84,7 +77,6 @@ EfficientNet-based models have demonstrated strong performance in deepfake detec
 
 Previous studies show that VGG19 can achieve high accuracy (around 95%) in deepfake detection tasks. :contentReference[oaicite:3]{index=3}  
 
----
 
 ## 📊 Model Evaluation
 
@@ -96,7 +88,6 @@ Evaluation metrics include:
 
 Deep learning-based detectors typically achieve high performance (often above 90% accuracy) depending on dataset and model choice. :contentReference[oaicite:4]{index=4}  
 
----
 
 ## 🛠️ Tech Stack
 
@@ -106,7 +97,6 @@ Deep learning-based detectors typically achieve high performance (often above 90
 - NumPy / Pandas  
 - Matplotlib / Seaborn  
 
----
 
 ## 📁 Project Structure
 
@@ -121,7 +111,6 @@ Deepfake-Detection/
 └── README.md
 ```
 
----
 
 ## 🚀 Results
 
@@ -129,7 +118,6 @@ Deepfake-Detection/
 - Compared EfficientNetB4 and VGG19 performance  
 - Identified differences in accuracy and efficiency  
 
----
 
 ## 📌 Limitations
 
@@ -137,7 +125,6 @@ Deepfake-Detection/
 - Limited generalization across unseen deepfake techniques  
 - Real-world deployment requires robustness testing  
 
----
 
 ## 🔧 Future Work
 
@@ -145,13 +132,12 @@ Deepfake-Detection/
 - Improve generalization across datasets  
 - Integrate real-time detection systems  
 
----
 
 ## 👤 Author
 
-Eunsu Park (Data Science Graduate Student)
-
----
+Park, Eunsoo
+Shrestha, Sandesh
+Gautam, Saumya
 
 ## ✔️ Summary
 
