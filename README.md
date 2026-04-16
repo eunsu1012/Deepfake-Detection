@@ -113,6 +113,6 @@ Deepfake-Detection/
 
 ## 11. References
 
-- Shrestha, S., Park, E.S., Gautam, S., Mansoor, N. (2025). A Comparative Study of EfficientNetB4 and VGG19 Models for Deepfake Detection.
+- S. Shrestha, E. S. Park, S. Gautam and N. Mansoor, "A Comparative Study of EfficientNetB4 and VGG19 Models for Deepfake Detection," 2025 International Conference on Advanced Machine Learning and Data Science (AMLDS), Tokyo, Japan, 2025, pp. 276-281, doi: 10.1109/AMLDS63918.2025.11159417.
 - NVIDIA Flickr Dataset (Real Images)
 - StyleGAN (Fake Image Generation)
