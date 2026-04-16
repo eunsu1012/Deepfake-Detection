@@ -14,7 +14,7 @@ This project aims to develop a reliable deepfake detection system and compare mo
 
 ---
 
-## 📊 Dataset
+## 🗂️ Dataset
 The dataset used in this project consists of high-quality human face images:
 
 - Total images: 140,000  
