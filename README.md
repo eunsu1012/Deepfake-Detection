@@ -97,6 +97,7 @@ python train.py
 
 ## 10. Project Structure
 
+```bash
 Deepfake-Detection/
 │
 ├── data/
@@ -106,6 +107,7 @@ Deepfake-Detection/
 ├── results/
 ├── train.py
 └── README.md
+```
 
 ---
 
